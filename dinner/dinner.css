@@ -106,7 +106,7 @@ label {
   background-color: #e07d7d;
 } 
 
-.menu input[type="checkbox"]:checked ~ .food {
+.menu input[type="checkbox"]:checked ~ label {
   text-decoration: line-through;
  }
 
