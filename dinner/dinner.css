@@ -1,0 +1,128 @@
+* {
+  transition: all .1s ease-in;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  padding: 15px; 
+}
+
+.main {
+  background-color: rgb(48, 51, 58);
+  background-size: cover;
+  font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+  color: white;
+  height: 100%;
+}
+
+header {
+  background-color: rgb(70, 74, 83);
+  color: #e07d7d; 
+  text-align: center;
+  line-height: 1.5;
+  height: 80px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+ 
+}
+
+header p {
+  font-size: 24px;
+}
+
+header ~ section {
+  background-color: rgb(143, 137, 163);
+  margin: 40px auto;
+  width: 80%;
+  max-width: 700px;
+}
+
+.menu p {
+  height: 20px;
+  margin: 0;
+  padding: 25px;
+  font-size: 22px;
+  border-top: 2px solid rgba(255, 255, 255, 0);
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
+}
+
+label {
+  margin-left: 10px;
+}
+
+.menu p:nth-child(2n) {
+  background-color:  rgb(135, 126, 156);
+}
+
+.pickles:after {
+  content: "( for the next lessons about CSS )";
+  color: rgb(202, 197, 211);
+  font-size: 16px; 
+  padding: 2px;
+  display: inline;
+}
+
+.apples:after {
+  content: "( for more CSS manipulations )";
+  color: rgb(202, 197, 211);
+  font-size: 16px; 
+  padding: 2px;
+  display: inline;
+}
+
+.oranges:after {
+  content: "( because they are awesome )";
+  color: rgb(202, 197, 211);
+  font-size: 16px; 
+  padding: 2px;
+  display: inline;
+}
+
+.plates:after {
+  content: "( hmm...they alsways disappear )";
+  color: rgb(202, 197, 211);
+  font-size: 16px; 
+  padding: 2px;
+  display: inline;
+}
+
+.bottle:after {
+  content: "( for my friends )";
+  color: rgb(202, 197, 211);
+  font-size: 16px; 
+  padding: 2px;
+  display: inline;
+}
+
+.menu p:hover {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  background-color: rgb(84, 76, 105);
+}
+
+.menu p:active {
+  background-color: #e07d7d;
+} 
+
+.menu input[type="checkbox"]:checked ~ .food {
+  text-decoration: line-through;
+ }
+
+.footer {
+  background-color: rgb(70, 74, 83);
+  margin: 40px auto;
+  width: 80%;
+  height: 70px;
+  max-width: 700px;
+}
+
+.footer__tip {
+  color: #e07d7d; 
+  text-align: center;
+  padding-top: 20px;
+  font-size: 24px;
+
+}
+

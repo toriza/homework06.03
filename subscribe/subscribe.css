@@ -1,0 +1,18 @@
+body {
+  background-image: url(2.jpg);
+  background-size: cover;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #184714; 
+  margin: 0;
+  padding: 0;
+  line-height: 3;
+}
+
+.block {
+  background-color: rgba(237, 238, 238, 0.877);
+  margin: 0px auto;
+  width: 80%;
+  max-width: 700px;
+  height: 100%; 
+  padding: 15px;
+}
